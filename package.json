@@ -1,0 +1,28 @@
+{
+  "name": "aqa-new-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "test:headed": "npx bddgen && npx playwright test --headed",
+    "test:ui": "npx bddgen && npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zadumka/AQA-new-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zadumka/AQA-new-platform/issues"
+  },
+  "homepage": "https://github.com/zadumka/AQA-new-platform#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.2",
+    "playwright-bdd": "^8.4.2"
+  }
+}
